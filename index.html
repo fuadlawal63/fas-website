@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Fuad's Appliance Solutions — professional home appliance repair services in Lagos.">
+  <title>Fuad's Appliance Solutions | FAS Repair</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container">
+      <a class="brand" href="#home" aria-label="Fuad's Appliance Solutions home">
+        <span class="brand-mark">FAS</span>
+        <span><strong>Fuad's Appliance Solutions</strong><small>Repair • Restore • Reliable</small></span>
+      </a>
+      <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <div class="nav-links">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#process">How It Works</a>
+        <a href="#booking" class="nav-cta">Book a Repair</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">PROFESSIONAL APPLIANCE REPAIR • LAGOS</p>
+          <h1>Repair your appliances.<br><span>Restore your peace of mind.</span></h1>
+          <p class="hero-copy">Reliable repairs and servicing for the appliances you depend on every day — handled with care, clear communication and professional workmanship.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#booking">Book a Repair</a>
+            <a class="btn btn-secondary" href="https://wa.me/2340000000000" target="_blank" rel="noopener">WhatsApp Us</a>
+          </div>
+          <div class="trust-row">
+            <span>✓ Home appliances</span>
+            <span>✓ Diagnostics</span>
+            <span>✓ Servicing</span>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="glow"></div>
+          <div class="fas-big">FAS</div>
+          <p>Fuad's Appliance Solutions</p>
+          <small>Professional appliance care</small>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">WHAT WE REPAIR</p>
+          <h2>Appliance problems, professionally handled.</h2>
+          <p>Tell us what's wrong and we'll help you take the next step.</p>
+        </div>
+        <div class="cards">
+          <article class="service-card"><div class="icon">▣</div><h3>Microwave & Oven</h3><p>Fault diagnosis, component replacement and servicing.</p></article>
+          <article class="service-card"><div class="icon">◈</div><h3>Fans & Air Flow</h3><p>Fan motor, coil, switch, gearbox and servicing work.</p></article>
+          <article class="service-card"><div class="icon">◇</div><h3>Cookers & Air Fryers</h3><p>Electrical faults, heating issues and general repairs.</p></article>
+          <article class="service-card"><div class="icon">⌁</div><h3>Blenders & Small Appliances</h3><p>Blenders, irons, stabilizers and other household appliances.</p></article>
+          <article class="service-card"><div class="icon">✦</div><h3>Hair & Personal Appliances</h3><p>Hair straighteners, hand dryers and body massagers.</p></article>
+          <article class="service-card"><div class="icon">＋</div><h3>Other Appliances</h3><p>Not sure? Send us the appliance details and we'll assess it.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section-dark">
+      <div class="container about-grid">
+        <div>
+          <p class="eyebrow">WHY FAS</p>
+          <h2>Built around trust, workmanship and clear communication.</h2>
+        </div>
+        <div class="about-copy">
+          <p>At Fuad's Appliance Solutions, the goal is simple: help customers get their appliances working properly again without unnecessary stress.</p>
+          <div class="feature-list">
+            <div><strong>01</strong><span>Clear diagnosis before repair</span></div>
+            <div><strong>02</strong><span>Professional repair and servicing</span></div>
+            <div><strong>03</strong><span>Repair tracking and customer updates</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="process" class="section">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">SIMPLE PROCESS</p>
+          <h2>From problem to repaired appliance.</h2>
+        </div>
+        <div class="steps">
+          <div class="step"><span>01</span><h3>Book</h3><p>Tell us about the appliance and the problem.</p></div>
+          <div class="step"><span>02</span><h3>Diagnose</h3><p>We assess the fault and explain the repair.</p></div>
+          <div class="step"><span>03</span><h3>Repair</h3><p>We carry out the approved repair or servicing.</p></div>
+          <div class="step"><span>04</span><h3>Collect</h3><p>Receive your repaired appliance and invoice.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="booking" class="section booking-section">
+      <div class="container booking-grid">
+        <div>
+          <p class="eyebrow">BOOK A REPAIR</p>
+          <h2>Let's get your appliance working again.</h2>
+          <p>Submit the form and we'll generate a reference for your request. You can then contact FAS on WhatsApp.</p>
+          <div class="contact-box">
+            <strong>Business hours</strong>
+            <span>Monday – Saturday • 9:00am – 6:00pm</span>
+            <span>Lagos, Nigeria</span>
+          </div>
+        </div>
+        <form id="bookingForm" class="booking-form">
+          <label>Full name<input name="name" required placeholder="Your name"></label>
+          <label>Phone number<input name="phone" required type="tel" placeholder="080..."></label>
+          <label>Appliance<select name="appliance" required>
+            <option value="">Select appliance</option>
+            <option>Microwave</option><option>Oven</option><option>Fan</option>
+            <option>Air fryer</option><option>Electric cooker</option><option>Blender</option>
+            <option>Iron</option><option>Stabilizer</option><option>Hair straightener</option>
+            <option>Other</option>
+          </select></label>
+          <label>Problem description<textarea name="problem" required placeholder="Briefly describe the problem..."></textarea></label>
+          <button class="btn btn-primary" type="submit">Create Repair Request</button>
+          <div id="bookingResult" class="booking-result" hidden></div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div><div class="brand"><span class="brand-mark">FAS</span><span><strong>Fuad's Appliance Solutions</strong><small>Repair • Restore • Reliable</small></span></div></div>
+      <div><p>Professional home appliance repair services.</p><p>© <span id="year"></span> Fuad's Appliance Solutions.</p></div>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
